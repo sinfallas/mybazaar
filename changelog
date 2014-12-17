@@ -1,4 +1,16 @@
-commit 131092de73a7c2877802c52f46fea108c44dc20e (HEAD, origin/master, origin/HEAD, master)
+commit b564132dc5ad905dad97ddf861236a3af912330d (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 17 14:17:55 2014 -0430
+
+    * se actualiza el readme
+
+commit 99f5743fc332b6339100f43a0445be1da28250bf
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 17 12:57:17 2014 -0430
+
+    * changelog
+
+commit 131092de73a7c2877802c52f46fea108c44dc20e
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Wed Dec 17 12:56:48 2014 -0430
 
