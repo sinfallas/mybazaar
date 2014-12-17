@@ -1,8 +1,7 @@
 mybazaar
 ========
 
-
-
+![Status](https://travis-ci.org/sinfallas/mybazaar.svg) 
 
 ## How to use
 
