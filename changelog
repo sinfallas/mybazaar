@@ -1,4 +1,16 @@
-commit 2df939897ebb122013360d9dc5ab943fa8d894f1 (HEAD, origin/master, origin/HEAD, master)
+commit e3b27ced952788b913729e96d8e04853519020af (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 17 12:39:39 2014 -0430
+
+    * se crea la funcion para crear el changelog
+
+commit ed12a8d489e887232fba322d1673bd8408fa3168
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 17 12:28:27 2014 -0430
+
+    * changelog
+
+commit 2df939897ebb122013360d9dc5ab943fa8d894f1
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Wed Dec 17 12:27:55 2014 -0430
 
