@@ -1,5 +1,5 @@
 #!/bin/bash
-source bzrvar
+bzrvar="lp:~user/+junk/example"
 case "$1" in
 	up)
 		bzr add
@@ -14,27 +14,15 @@ case "$1" in
 		bzr push $bzrvar
 		;;
 
-	change-all)
-		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
-			cd $i
-			git log --decorate > changelog
-			git add .
-			git commit -a -m "* changelog"
-			git push --all
-			cd ..
-		done
-		;;
-
-	refresh)
-		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
-    			cd $i
-			git pull
-			cd ..
-		done
+	change)
+		bzr log > changelog
+		bzr add
+		bzr commit -m "* changelog"
+		bzr push $bzrvar
 		;;
 
 	*)
-		echo "USO: $0 {up|init|change-all|refresh}"
+		echo "USO: $0 {up|init|change}"
 		exit 0
 		;;
 
