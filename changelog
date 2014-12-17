@@ -1,4 +1,16 @@
-commit c4c1e00d6af0a2fc543e41eb31c065585e721e00 (HEAD, origin/master, origin/HEAD, master)
+commit 131092de73a7c2877802c52f46fea108c44dc20e (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 17 12:56:48 2014 -0430
+
+    * se agrega el archivo para activar travis ci
+
+commit 8c13712acf957a02567c724d4aec71bef97f89fe
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 17 12:54:13 2014 -0430
+
+    * changelog
+
+commit c4c1e00d6af0a2fc543e41eb31c065585e721e00
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Wed Dec 17 12:53:39 2014 -0430
 
