@@ -9,8 +9,8 @@ mybazaar
 $ curl -O https://raw.githubusercontent.com/sinfallas/mybazaar/master/mybazaar.sh
 $ chmod +x mybazaar.sh
 ```
-Then execute:
+copy to /usr/bin/ and then execute:
 
 ```bash
- ./mybazaar.sh up|init|change
+mybazaar.sh up|init|change
 ```
