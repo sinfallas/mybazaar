@@ -15,7 +15,7 @@ case "$1" in
 		;;
 
 	change)
-		bzr log > changelog
+		bzr log > CHANGES
 		bzr add
 		bzr commit -m "* changelog"
 		bzr push $bzrvar
