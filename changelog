@@ -1,4 +1,22 @@
-commit e20be2fe322576e0220c4f4faf149ad0cf89ca30 (HEAD, origin/master, origin/HEAD, master)
+commit da4870c66505015f5b0f05ae62f93cea37a29416 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Dec 20 21:59:33 2014 -0430
+
+    * bugfix
+
+commit 64def78d04a57653b48438fa71a98c1e3fa44de6
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Dec 20 21:23:10 2014 -0430
+
+    * se modifica la variable para autodetectar el directorio a subir
+
+commit cd0b7f779502584695b3ba20ffefbff4b68ef8cd
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Dec 20 20:57:42 2014 -0430
+
+    * changelog
+
+commit e20be2fe322576e0220c4f4faf149ad0cf89ca30
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Sat Dec 20 20:57:15 2014 -0430
 
