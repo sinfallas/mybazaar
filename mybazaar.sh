@@ -1,5 +1,5 @@
 #!/bin/bash
-bzrvar="lp:$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99)"
+bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 case "$1" in
 	up)
 		bzr add
