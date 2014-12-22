@@ -23,8 +23,6 @@ case "$1" in
 
 	*)
 		echo "USO: $0 {up|init|change}"
-		exit 0
 		;;
-
 esac
 exit 0
