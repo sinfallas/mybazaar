@@ -15,7 +15,6 @@ case "$1" in
 		;;
 
 	change)
-		bzr check
 		bzr log > CHANGES
 		bzr add
 		bzr commit -m "* changelog"
@@ -27,7 +26,6 @@ case "$1" in
 			cd $i
 				bzrvar2="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 				echo $(pwd)
-				bzr check
 				bzr log > CHANGES
 				bzr add
 				bzr commit -m "* changelog"
