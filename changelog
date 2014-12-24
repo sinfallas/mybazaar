@@ -1,4 +1,16 @@
-commit ae9d3a6f05e559743a646169364fa59c95737513 (HEAD, origin/master, origin/HEAD, master)
+commit 0d4c6ba87736a7c683f774eec4e1c43d88011dc8 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 24 12:09:06 2014 -0430
+
+    * se actualiza el readme para agregar las nuevas funciones
+
+commit 7c1b4e9951bcf3bb3cc1f3ba899331107a480d3e
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Dec 23 21:24:38 2014 -0430
+
+    * changelog
+
+commit ae9d3a6f05e559743a646169364fa59c95737513
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Tue Dec 23 21:24:12 2014 -0430
 
