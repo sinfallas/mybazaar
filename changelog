@@ -1,4 +1,16 @@
-commit de47f4912cf8b992a8d9e4051738912141e1021d (HEAD, origin/master, origin/HEAD, master)
+commit 3343357eb31bdee03349e42d80adb05ea21a2246 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Dec 23 21:21:59 2014 -0430
+
+    * se elimina bzr chech
+
+commit d5a6c0878f5cc890bbff0158c2bb74d5b740b2f7
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Dec 23 20:56:17 2014 -0430
+
+    * changelog
+
+commit de47f4912cf8b992a8d9e4051738912141e1021d
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Tue Dec 23 20:56:05 2014 -0430
 
