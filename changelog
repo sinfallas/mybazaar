@@ -1,4 +1,16 @@
-commit 3343357eb31bdee03349e42d80adb05ea21a2246 (HEAD, origin/master, origin/HEAD, master)
+commit ae9d3a6f05e559743a646169364fa59c95737513 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Dec 23 21:24:12 2014 -0430
+
+    * se completa el mensaje de uso
+
+commit 4b1697367d93e3d355f0182d8f99a9683413bc84
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Dec 23 21:22:22 2014 -0430
+
+    * changelog
+
+commit 3343357eb31bdee03349e42d80adb05ea21a2246
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Tue Dec 23 21:21:59 2014 -0430
 
