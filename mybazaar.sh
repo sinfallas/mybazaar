@@ -25,7 +25,7 @@ case "$1" in
 	change-all)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
 			cd $i
-				bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
+				bzrvar2="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 				echo $(pwd)
 				bzr check
 				bzr log > CHANGES
