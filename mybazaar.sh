@@ -44,7 +44,7 @@ case "$1" in
 		;;
 
 	*)
-		echo "USO: $0 {up|init|change|refresh}"
+		echo "USO: $0 {up|init|change|change-all|refresh}"
 		;;
 esac
 exit 0
