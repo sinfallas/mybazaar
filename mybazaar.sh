@@ -8,10 +8,14 @@ case "$1" in
 		;;	
 
 	init)
+		echo "Introduzca su nombre de usuario en Bazaar:"
+		read yo
+		echo "Introduzca el nombre de la rama:"
+		read donde
 		bzr init
 		bzr add
 		bzr commit -m "* primer commit"
-		bzr push $bzrvar
+		bzr push lp:~$yo/+junk/$donde
 		;;
 
 	change)
