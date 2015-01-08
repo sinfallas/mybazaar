@@ -1,7 +1,7 @@
 #!/bin/bash
-bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 case "$1" in
 	up)
+		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 		bzr add
 		bzr commit 
 		bzr push $bzrvar
@@ -19,6 +19,7 @@ case "$1" in
 		;;
 
 	change)
+		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 		bzr log > CHANGES
 		bzr add
 		bzr commit -m "* changelog"
@@ -39,6 +40,7 @@ case "$1" in
 		;;
 
 	refresh)
+		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
     			cd $i
 			echo $(pwd)
