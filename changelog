@@ -1,4 +1,16 @@
-commit 23459c1fdc7d0e2f984d83031fa956cacdb81b77 (HEAD, origin/master, origin/HEAD, master)
+commit 69e78b81b89cade07cf78e52a07ca5e4203734e4 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:29:07 2015 -0430
+
+    * se actualiza el readme para que puedan empaquetarlo
+
+commit c319d53e3e0c6f7ee0d82dc2fcd61109e4bd6a37
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:26:18 2015 -0430
+
+    * changelog
+
+commit 23459c1fdc7d0e2f984d83031fa956cacdb81b77
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Thu Jan 8 00:25:47 2015 -0430
 
