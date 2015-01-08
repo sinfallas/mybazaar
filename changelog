@@ -1,4 +1,16 @@
-commit a1a64d437dd591343e63a9cb359623d1aa87f94f (HEAD, origin/master, origin/HEAD, master)
+commit 23459c1fdc7d0e2f984d83031fa956cacdb81b77 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:25:47 2015 -0430
+
+    * se ubican las variables en su lugar
+
+commit e3aac3c9e15ce09f8b156002371226a54b6284b1
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Mon Dec 29 22:42:30 2014 -0430
+
+    * changelog
+
+commit a1a64d437dd591343e63a9cb359623d1aa87f94f
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Mon Dec 29 22:39:40 2014 -0430
 
