@@ -1,4 +1,16 @@
-commit cda741766db0be2dfef11351913f1c184c2b7416 (HEAD, origin/master, origin/HEAD, master)
+commit 812c1c96435129ac5cac446695181cbb8a7f5b77 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:57:20 2015 -0430
+
+    * se agrega la funcion up-all
+
+commit 2f6dc8eee99a08049a2c35249a4ccfeb9e31a16c
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:48:13 2015 -0430
+
+    * changelog
+
+commit cda741766db0be2dfef11351913f1c184c2b7416
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Thu Jan 8 00:39:03 2015 -0430
 
