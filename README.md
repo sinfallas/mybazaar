@@ -3,6 +3,8 @@ mybazaar
 
 ![Status](https://travis-ci.org/sinfallas/mybazaar.svg) 
 
+A script to automate common tasks when using bazaar
+
 ## How to use
 
 ```bash
