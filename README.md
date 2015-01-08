@@ -14,5 +14,5 @@ $ chmod +x mybazaar.sh
 copy to /usr/bin/ and then execute:
 
 ```bash
-mybazaar.sh up|init|change|change-all|refresh
+mybazaar.sh {up|init|change|change-all|refresh|up-all <message>}
 ```
