@@ -7,6 +7,18 @@ case "$1" in
 		bzr push $bzrvar
 		;;	
 
+	up-all)
+		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
+			cd $i
+				bzrvar2="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
+				echo $(pwd)
+				bzr add
+				bzr commit -m $2
+				bzr push $bzrvar2
+			cd ..
+		done
+		;;
+
 	init)
 		echo "Introduzca su nombre de usuario en Bazaar:"
 		read yo
@@ -50,7 +62,7 @@ case "$1" in
 		;;
 
 	*)
-		echo "USO: $0 {up|init|change|change-all|refresh}"
+		echo "USO: $0 {up|init|change|change-all|refresh|up-all <message>}"
 		;;
 esac
 exit 0
