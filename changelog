@@ -1,4 +1,16 @@
-commit 2248e03427cea08fda1a84137ac4fdd4827d1314 (HEAD, origin/master, origin/HEAD, master)
+commit a196ebcd3ec09896981a782de69774aa600929ee (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Jan 13 19:25:18 2015 -0430
+
+    * se coloca mensaje de finalizacion
+
+commit df52b71d7743052374609c95c7c25c3bf4b1189a (tag: v0.1.1)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:59:34 2015 -0430
+
+    * changelog
+
+commit 2248e03427cea08fda1a84137ac4fdd4827d1314
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Thu Jan 8 00:59:19 2015 -0430
 
