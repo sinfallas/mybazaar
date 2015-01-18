@@ -1,4 +1,16 @@
-commit a196ebcd3ec09896981a782de69774aa600929ee (HEAD, origin/master, origin/HEAD, master)
+commit ccf7255a596ff8d2064989f77fe0d3d44d510ffa (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jan 17 22:44:14 2015 -0430
+
+    * se agrega una comprobacion de variables
+
+commit 163afa3debaeeed1d4c42e24d3f2386f15ad73f8 (tag: v0.1.2)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Jan 13 19:25:35 2015 -0430
+
+    * changelog
+
+commit a196ebcd3ec09896981a782de69774aa600929ee
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Tue Jan 13 19:25:18 2015 -0430
 
