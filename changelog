@@ -1,4 +1,16 @@
-commit ccf7255a596ff8d2064989f77fe0d3d44d510ffa (HEAD, origin/master, origin/HEAD, master)
+commit 7a5791d01c118ea88173e760d77231d319f42388 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jan 17 22:53:56 2015 -0430
+
+    * se reorganizan las variables
+
+commit 42269cf36da00110a25bd779637a1b0af3f0e322
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jan 17 22:44:39 2015 -0430
+
+    * changelog
+
+commit ccf7255a596ff8d2064989f77fe0d3d44d510ffa
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Sat Jan 17 22:44:14 2015 -0430
 
