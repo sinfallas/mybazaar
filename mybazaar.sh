@@ -1,12 +1,12 @@
 #!/bin/bash
-if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
-	echo 1 > /dev/null
-else
-	echo "push_location = bzr+ssh://bazaar.launchpad.net/"$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99) >> .bzr/branch/branch.conf
-fi
-bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 case "$1" in
 	up)
+		if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
+			echo 1 > /dev/null
+		else
+			echo "push_location = bzr+ssh://bazaar.launchpad.net/"$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99) >> .bzr/branch/branch.conf
+		fi
+		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 		bzr add
 		bzr commit 
 		bzr push $bzrvar
@@ -16,6 +16,11 @@ case "$1" in
 	up-all)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
 			cd $i
+				if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
+					echo 1 > /dev/null
+				else
+					echo "push_location = bzr+ssh://bazaar.launchpad.net/"$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99) >> .bzr/branch/branch.conf
+				fi
 				bzrvar2="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 				echo $(pwd)
 				bzr add
@@ -39,6 +44,12 @@ case "$1" in
 		;;
 
 	change)
+		if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
+			echo 1 > /dev/null
+		else
+			echo "push_location = bzr+ssh://bazaar.launchpad.net/"$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99) >> .bzr/branch/branch.conf
+		fi
+		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"		
 		bzr log > CHANGES
 		bzr add
 		bzr commit -m "* changelog"
@@ -49,6 +60,11 @@ case "$1" in
 	change-all)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
 			cd $i
+				if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
+					echo 1 > /dev/null
+				else
+					echo "push_location = bzr+ssh://bazaar.launchpad.net/"$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99) >> .bzr/branch/branch.conf
+				fi
 				bzrvar2="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 				echo $(pwd)
 				bzr log > CHANGES
