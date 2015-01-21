@@ -1,0 +1,14 @@
+Source: mybazaar
+Section: metapackages
+Priority: standard
+Maintainer: Jesus Palencia <sinfallas@gmail.com>
+Build-Depends: debhelper, cdbs
+Standards-Version: 3.9.5
+Homepage: https://xanadulinux.wordpress.com
+Vcs-Bzr: lp:~sinfallas/+junk/mybazaar
+
+Package: mybazaar
+Architecture: all
+Depends: bzr, bzr-builder
+Description: MyBazaar
+ A script to automate common tasks when using bazaar
