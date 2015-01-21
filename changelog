@@ -1,4 +1,22 @@
-commit 7a5791d01c118ea88173e760d77231d319f42388 (HEAD, origin/master, origin/HEAD, master)
+commit 6bf18d43d75b55b18b188d14c253a57735b16bad (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Jan 21 18:07:31 2015 -0430
+
+    * se agrega el directorio debian para crear el paquete
+
+commit 86c660edd9b2ec71512ae814f0abe8954cbcbce6
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Jan 21 17:58:47 2015 -0430
+
+    * se agregan los archivos para ignorar
+
+commit d4e9077bb97df12fa04b948d23e5e84598ad83b9 (tag: v0.1.3)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Jan 17 22:54:16 2015 -0430
+
+    * changelog
+
+commit 7a5791d01c118ea88173e760d77231d319f42388
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Sat Jan 17 22:53:56 2015 -0430
 
