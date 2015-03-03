@@ -10,7 +10,7 @@ case "$1" in
 		bzr add
 		bzr commit 
 		bzr push $bzrvar
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;	
 
 	up-all)
@@ -28,7 +28,7 @@ case "$1" in
 				bzr push $bzrvar2
 			cd ..
 		done
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	init)
@@ -40,7 +40,7 @@ case "$1" in
 		bzr add
 		bzr commit -m "* primer commit"
 		bzr push lp:~$yo/+junk/$donde
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	change)
@@ -54,7 +54,7 @@ case "$1" in
 		bzr add
 		bzr commit -m "* changelog"
 		bzr push $bzrvar
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	change-all)
@@ -73,7 +73,7 @@ case "$1" in
 				bzr push $bzrvar2
 			cd ..
 		done
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	refresh)
@@ -83,7 +83,7 @@ case "$1" in
 			bzr pull
 			cd ..
 		done
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	*)
