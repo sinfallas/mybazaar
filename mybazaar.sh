@@ -32,13 +32,13 @@ case "$1" in
 		;;
 
 	init)
-		echo "Introduzca su nombre de usuario en Bazaar:"
+		echo "Enter your username in Bazaar:"
 		read yo
-		echo "Introduzca el nombre de la rama:"
+		echo "Enter the name of the branch:"
 		read donde
 		bzr init
 		bzr add
-		bzr commit -m "* primer commit"
+		bzr commit -m "* first commit"
 		bzr push lp:~$yo/+junk/$donde
 		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
@@ -87,7 +87,7 @@ case "$1" in
 		;;
 
 	*)
-		echo "USO: $0 {up|init|change|change-all|refresh|up-all <message>}"
+		echo "usage: $0 {up|init|change|change-all|refresh|up-all <message>}"
 		;;
 esac
 exit 0
