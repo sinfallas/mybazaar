@@ -1,4 +1,16 @@
-commit 7c7bf3d4bdb904a13bdc9cd7f2f8bb1142523ef3 (HEAD, origin/master, origin/HEAD, master)
+commit c1daa4213cb14c870ab366fc6f00a3d4d882c68a (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Mar 7 23:12:58 2015 -0430
+
+    * se agrega color al mostrar pwd
+
+commit da6bf89ea5a0abedc2f42ea02b154f48ecb90e63 (tag: v0.1.4)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 6 16:50:25 2015 -0430
+
+    * changelog
+
+commit 7c7bf3d4bdb904a13bdc9cd7f2f8bb1142523ef3
 Author: jose perez <sinfallas@gmail.com>
 Date:   Fri Mar 6 16:50:10 2015 -0430
 
