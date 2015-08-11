@@ -1,6 +1,8 @@
 mybazaar
 ========
 
+[![DOI](https://zenodo.org/badge/4102/sinfallas/mybazaar.svg)](https://zenodo.org/badge/latestdoi/4102/sinfallas/mybazaar)
+
 ![Status](https://travis-ci.org/sinfallas/mybazaar.svg) 
 
 [![Coverage Status](https://coveralls.io/repos/sinfallas/mybazaar/badge.svg?branch=master&service=github)](https://coveralls.io/github/sinfallas/mybazaar?branch=master)
