@@ -1,4 +1,22 @@
-commit 3d108c76afd4808e44673c8bbfe9989fda09b7cc (HEAD, origin/master, origin/HEAD, master)
+commit 1221f90101dd4a6b674317faa3fa2daf4df86066 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Aug 11 20:19:02 2015 -0430
+
+    * readme
+
+commit 0b2564c5015b05b3add26384aaf8d575d22c4adf
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Aug 11 20:18:37 2015 -0430
+
+    * se agrega la funcion break
+
+commit ba959b17840ddf8e972c6c6381b7c18995ef4bc0
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Aug 10 20:10:18 2015 -0430
+
+    * changelog
+
+commit 3d108c76afd4808e44673c8bbfe9989fda09b7cc
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Aug 10 20:10:06 2015 -0430
 
