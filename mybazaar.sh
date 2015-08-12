@@ -86,8 +86,13 @@ case "$1" in
 		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
+	break)
+		bzr break-lock --force
+		bzr break-lock --force bzr+ssh://bazaar.launchpad.net/$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99)
+		;;
+
 	*)
-		echo "usage: $0 {up|init|change|change-all|refresh|up-all <message>}"
+		echo "usage: $0 {up|init|break|change|change-all|refresh|up-all <message>}"
 		;;
 esac
 exit 0
