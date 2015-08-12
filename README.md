@@ -18,5 +18,5 @@ $ chmod +x mybazaar.sh
 copy to /usr/bin/ and then execute:
 
 ```bash
-mybazaar.sh {up|init|change|change-all|refresh|up-all <message>}
+mybazaar.sh {up|init|break|change|change-all|refresh|up-all <message>}
 ```
