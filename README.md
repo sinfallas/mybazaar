@@ -5,8 +5,6 @@ mybazaar
 
 ![Status](https://travis-ci.org/sinfallas/mybazaar.svg) 
 
-[![Coverage Status](https://coveralls.io/repos/sinfallas/mybazaar/badge.svg?branch=master&service=github)](https://coveralls.io/github/sinfallas/mybazaar?branch=master)
-
 A script to automate common tasks when using bazaar
 
 ## How to use
