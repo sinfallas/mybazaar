@@ -1,6 +1,7 @@
 #!/bin/bash
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
+LC_ALL=C
 case "$1" in
 	up)
 		if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
@@ -11,7 +12,7 @@ case "$1" in
 		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 		bzr add
 		bzr commit 
-		bzr push $bzrvar
+		bzr push "$bzrvar"
 		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;	
 
@@ -27,7 +28,7 @@ case "$1" in
 				echo -e "\e[00;1;92m$(pwd)\e[00m"
 				bzr add
 				bzr commit -m $2
-				bzr push $bzrvar2
+				bzr push "$bzrvar2"
 			cd ..
 		done
 		echo -e "\e[00;1;92mFinished...\e[00m"
@@ -41,7 +42,7 @@ case "$1" in
 		bzr init
 		bzr add
 		bzr commit -m "* first commit"
-		bzr push lp:~$yo/+junk/$donde
+		bzr push lp:~"$yo"/+junk/"$donde"
 		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
@@ -55,7 +56,7 @@ case "$1" in
 		bzr log > CHANGES
 		bzr add
 		bzr commit -m "* changelog"
-		bzr push $bzrvar
+		bzr push "$bzrvar"
 		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
@@ -72,7 +73,7 @@ case "$1" in
 				bzr log > CHANGES
 				bzr add
 				bzr commit -m "* changelog"
-				bzr push $bzrvar2
+				bzr push "$bzrvar2"
 			cd ..
 		done
 		echo -e "\e[00;1;92mFinished...\e[00m"
