@@ -1,4 +1,40 @@
-commit 1221f90101dd4a6b674317faa3fa2daf4df86066 (HEAD, origin/master, origin/HEAD, master)
+commit ea6fa42f712a0c951b3335b34860caaeffa949a0 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Oct 22 19:24:21 2015 -0430
+
+    * bugfix
+
+commit 5c045b5c71b7682a98e718563c52ff81fa771ffb
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 20 20:07:44 2015 -0430
+
+    bugfix
+
+commit e70fb76511a64bff7188d019e7be3f9408b803fe
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Oct 18 23:57:03 2015 -0430
+
+    optimizaciones
+
+commit 9e229e29ca8ee09357b1b4cffb76d4d66f272256
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Oct 13 21:58:57 2015 -0430
+
+    coveralls
+
+commit 1b211af96250ff63d4309371147d4f442fac1fb4
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Oct 12 12:46:36 2015 -0430
+
+    licencia
+
+commit 8911c00b89b0626db671857391ee556cf58051e6
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Aug 11 20:19:14 2015 -0430
+
+    * changelog
+
+commit 1221f90101dd4a6b674317faa3fa2daf4df86066
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Aug 11 20:19:02 2015 -0430
 
@@ -22,7 +58,7 @@ Date:   Mon Aug 10 20:10:06 2015 -0430
 
     * doi
 
-commit e381f9ce8142d1785341c8ae147879ae9d0a6096
+commit e381f9ce8142d1785341c8ae147879ae9d0a6096 (tag: v0.1.5)
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Aug 1 21:34:32 2015 -0430
 
