@@ -2,8 +2,7 @@
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
 LC_ALL=C
-trap "rm -f /run/mybazaar.pid; exit" INT TERM EXIT
-echo "$BASHPID" > /run/mybazaar.pid
+
 case "$1" in
 	up)
 		if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
@@ -100,7 +99,4 @@ case "$1" in
 		echo "usage: $0 {up|init|break|change|change-all|refresh|up-all <message>}"
 		;;
 esac
-
-rm -f /run/mybazaar.pid
-trap - INT TERM EXIT
 exit 0
