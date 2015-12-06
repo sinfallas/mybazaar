@@ -96,7 +96,7 @@ case "$1" in
 		;;
 
 	*)
-		echo "usage: $0 {up|init|break|change|change-all|refresh|up-all <message>}"
+		echo "usage: $(basename $0) {up|init|break|change|change-all|refresh|up-all <message>}"
 		;;
 esac
 exit 0
