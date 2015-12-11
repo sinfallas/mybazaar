@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
+set -eu
+set -o pipefail
 LC_ALL=C
 
 case "$1" in
