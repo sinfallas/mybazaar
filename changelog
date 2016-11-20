@@ -1,4 +1,16 @@
-commit eb232c01b168f019e108156472317b58c3aca4c5 (HEAD, origin/master, origin/HEAD, master)
+commit 780b6bb0731f0f63b53901fa05d108bfa3f9d53a (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Nov 19 22:28:32 2016 -0400
+
+    * se agrega el archivo todo
+
+commit ee09045bdf4f044c3758a68e551d85f3a5996891 (tag: v0.1.7)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Feb 29 21:20:20 2016 -0430
+
+    * changelog
+
+commit eb232c01b168f019e108156472317b58c3aca4c5
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Feb 29 21:19:03 2016 -0430
 
