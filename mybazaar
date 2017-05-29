@@ -3,6 +3,33 @@
 # Licence: GPL-2
 LC_ALL=C
 
+function agregar() {
+	if [[ $? = 0 ]]; then
+		echo -e "\e[00;1;92mArchivos agregados correctamente.\e[00m"
+	else
+		echo -e "\e[00;1;92mError al agregar archivos.\e[00m"
+		exit 1
+	fi
+}
+
+function hacercommit() {
+	if [[ $? = 0 ]]; then
+		echo -e "\e[00;1;92mCommit realizado correctamente.\e[00m"
+	else
+		echo -e "\e[00;1;92mError al realizar commit.\e[00m"
+		exit 1
+	fi
+}
+
+function hacerpush() {
+	if [[ $? = 0 ]]; then
+		echo -e "\e[00;1;92mEnvio realizado correctamente.\e[00m"
+	else
+		echo -e "\e[00;1;92mError al realizar envio.\e[00m"
+		exit 1
+	fi
+}
+
 case "$1" in
 	up)
 		if [ -n "$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)" ]; then
@@ -12,9 +39,10 @@ case "$1" in
 		fi
 		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 		bzr add
+		agregar
 		bzr commit 
 		bzr push "$bzrvar"
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;	
 
 	up-all)
@@ -28,23 +56,25 @@ case "$1" in
 				bzrvar2="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 				echo -e "\e[00;1;92m$(pwd)\e[00m"
 				bzr add
+				agregar
 				bzr commit -m $2
 				bzr push "$bzrvar2"
 			cd ..
 		done
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	init)
-		echo "Enter your username in Bazaar:"
+		echo "Introduzca su nombre de usuario en Bazaar:"
 		read yo
-		echo "Enter the name of the branch:"
+		echo "Introduzca el nombre de la rama:"
 		read donde
 		bzr init
 		bzr add
+		agregar
 		bzr commit -m "* first commit"
 		bzr push lp:~"$yo"/+junk/"$donde"
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	change)
@@ -56,9 +86,10 @@ case "$1" in
 		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"		
 		bzr log > CHANGES
 		bzr add
+		agregar
 		bzr commit -m "* changelog"
 		bzr push "$bzrvar"
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	change-all)
@@ -73,11 +104,12 @@ case "$1" in
 				echo -e "\e[00;1;92m$(pwd)\e[00m"
 				bzr log > CHANGES
 				bzr add
+				agregar
 				bzr commit -m "* changelog"
 				bzr push "$bzrvar2"
 			cd ..
 		done
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	refresh)
@@ -87,16 +119,17 @@ case "$1" in
 			bzr pull
 			cd ..
 		done
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	break)
 		bzr break-lock --force
 		bzr break-lock --force bzr+ssh://bazaar.launchpad.net/$(cat .bzr/branch/branch.conf | grep parent_location | cut -c 50-99)
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	*)
-		echo "usage: $(basename $0) {up|init|break|change|change-all|refresh|up-all <message>}"
+		echo "uso: $(basename $0) {up|init|break|change|change-all|refresh|up-all <msj>}"
 		;;
 esac
 exit 0
