@@ -40,8 +40,10 @@ case "$1" in
 		bzrvar="lp:$(cat .bzr/branch/branch.conf | grep push_location | cut -c 48-99)"
 		bzr add
 		agregar
-		bzr commit 
+		bzr commit
+		hacercommit
 		bzr push "$bzrvar"
+		hacerpush
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;	
 
@@ -58,7 +60,9 @@ case "$1" in
 				bzr add
 				agregar
 				bzr commit -m $2
+				hacercommit
 				bzr push "$bzrvar2"
+				hacerpush
 			cd ..
 		done
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
@@ -73,7 +77,9 @@ case "$1" in
 		bzr add
 		agregar
 		bzr commit -m "* first commit"
+		hacercommit
 		bzr push lp:~"$yo"/+junk/"$donde"
+		hacerpush
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
@@ -88,7 +94,9 @@ case "$1" in
 		bzr add
 		agregar
 		bzr commit -m "* changelog"
+		hacercommit
 		bzr push "$bzrvar"
+		hacerpush
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
@@ -106,7 +114,9 @@ case "$1" in
 				bzr add
 				agregar
 				bzr commit -m "* changelog"
+				hacercommit
 				bzr push "$bzrvar2"
+				hacerpush
 			cd ..
 		done
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
@@ -132,4 +142,4 @@ case "$1" in
 		echo "uso: $(basename $0) {up|init|break|change|change-all|refresh|up-all <msj>}"
 		;;
 esac
-exit 0
+exit 0clear
