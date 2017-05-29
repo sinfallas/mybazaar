@@ -1,4 +1,22 @@
-commit 780b6bb0731f0f63b53901fa05d108bfa3f9d53a (HEAD, origin/master, origin/HEAD, master)
+commit 2ea7634040d505661dfc12654678c0a3764f4d04 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon May 29 18:57:27 2017 -0400
+
+    * se terminan de llamar a las funciones
+
+commit e4da2e3b25467cd3d4d68db5c65870889c3b8a66
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon May 29 18:54:40 2017 -0400
+
+    * se limpia TODO
+
+commit 68c8d093a32605636544917d1ce0f77c3312083e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Nov 19 22:28:49 2016 -0400
+
+    * changelog
+
+commit 780b6bb0731f0f63b53901fa05d108bfa3f9d53a
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Nov 19 22:28:32 2016 -0400
 
