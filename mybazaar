@@ -142,4 +142,4 @@ case "$1" in
 		echo "uso: $(basename $0) {up|init|break|change|change-all|refresh|up-all <msj>}"
 		;;
 esac
-exit 0clear
+exit 0
