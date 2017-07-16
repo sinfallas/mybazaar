@@ -7,7 +7,7 @@ function agregar() {
 	if [[ $? = 0 ]]; then
 		echo -e "\e[00;1;92mArchivos agregados correctamente.\e[00m"
 	else
-		echo -e "\e[00;1;92mError al agregar archivos.\e[00m"
+		echo -e "\e[00;31mError al agregar archivos.\e[00m"
 		exit 1
 	fi
 }
@@ -16,7 +16,7 @@ function hacercommit() {
 	if [[ $? = 0 ]]; then
 		echo -e "\e[00;1;92mCommit realizado correctamente.\e[00m"
 	else
-		echo -e "\e[00;1;92mError al realizar commit.\e[00m"
+		echo -e "\e[00;31mError al realizar commit.\e[00m"
 		exit 1
 	fi
 }
@@ -25,7 +25,7 @@ function hacerpush() {
 	if [[ $? = 0 ]]; then
 		echo -e "\e[00;1;92mEnvio realizado correctamente.\e[00m"
 	else
-		echo -e "\e[00;1;92mError al realizar envio.\e[00m"
+		echo -e "\e[00;31mError al realizar envio.\e[00m"
 		exit 1
 	fi
 }
