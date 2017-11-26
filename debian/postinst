@@ -1,4 +1,19 @@
-#!/bin/bash
+#!/bin/sh
+set -e
+
+case "$1" in
+	configure)
+	chmod +x /usr/bin/mybazaar
+	;;
+
+	remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear|abort-deconfigure|abort-remove)
+	;;
+
+	*)
+		echo "postinst fue invocado con argumentos desconocidos \`$1'" >&2
+		exit 1
+	;;
+esac
 
 #DEBHELPER#
 exit 0

@@ -9,6 +9,6 @@ Vcs-Bzr: lp:~sinfallas/+junk/mybazaar
 
 Package: mybazaar
 Architecture: all
-Depends: bzr, bzr-builder
-Description: MyBazaar
- A script to automate common tasks when using bazaar
+Depends: bzr, bzr-builder, ${misc:Depends}
+Description: My Bazaar
+ Script para automatizar tareas al usar bazaar
