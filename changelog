@@ -1,4 +1,16 @@
-commit fd85b43552e3d7ee7b802f1db5a5c72763a7ca98 (HEAD, origin/master, origin/HEAD, master)
+commit 1e6861df975356556b7699f32535e064587e47d0 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Nov 26 13:13:53 2017 -0400
+
+    * se actualiza el directorio debian
+
+commit 8a9b763afecaeb57fdcee766f40cfe70014c8242
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Nov 26 13:08:40 2017 -0400
+
+    * changelog
+
+commit fd85b43552e3d7ee7b802f1db5a5c72763a7ca98
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Nov 26 13:08:16 2017 -0400
 
