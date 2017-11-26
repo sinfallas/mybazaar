@@ -1,4 +1,16 @@
-commit 2af8481d77e022f325f3a38c04f735b5cda28420 (HEAD, origin/master, origin/HEAD, master)
+commit fd85b43552e3d7ee7b802f1db5a5c72763a7ca98 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Nov 26 13:08:16 2017 -0400
+
+    * se agrega la opcion para instalar
+
+commit 64415c5228e2eec11839e89aca7f99cdc2c1aba6
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Jul 16 15:45:55 2017 -0400
+
+    * changelog
+
+commit 2af8481d77e022f325f3a38c04f735b5cda28420
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Jul 16 15:45:35 2017 -0400
 
