@@ -138,8 +138,18 @@ case "$1" in
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
+	install)
+		if [[ "$EUID" != "0" ]]; then
+			echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
+			exit 1
+		fi
+		apt-get -q update
+		apt-get -qy install bzr
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
+
 	*)
-		echo "uso: $(basename $0) {up|init|break|change|change-all|refresh|up-all <msj>}"
+		echo "uso: $(basename $0) {install|up|init|break|change|change-all|refresh|up-all <msj>}"
 		;;
 esac
 exit 0
