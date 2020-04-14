@@ -2,10 +2,9 @@
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
 LC_ALL=C
-echo $BASHPID > /run/"$(basename $0)".pid
-
+echo $BASHPID > /tmp/"$(basename $0)".pid
 function clean_1() {
-	rm -f /run/$(basename $0).pid
+	rm -f /tmp/$(basename $0).pid
 }
 
 trap "clean_1; exit" 0 1 2 3 15
