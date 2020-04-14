@@ -1,4 +1,16 @@
-commit c96c3cedab261289bf9039bf1777248aaeb741f3 (HEAD -> master, origin/master, origin/HEAD)
+commit 68b9ffff27f895f396a6b66edb7756c24af9a352 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Apr 13 20:05:47 2020 -0400
+
+    * trap
+
+commit 0de5e34a9b72b83c7b1b702e2486eb4cf654d9cd
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Apr 13 19:52:38 2020 -0400
+
+    * changelog
+
+commit c96c3cedab261289bf9039bf1777248aaeb741f3
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Apr 13 19:52:26 2020 -0400
 
