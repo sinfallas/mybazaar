@@ -7,7 +7,7 @@ function clean_1() {
 	rm -f /tmp/$(basename $0).pid
 }
 
-trap "clean_1; exit" 0 1 2 3 9 15
+trap "clean_1; exit" 0 1 2 3 15
 
 function agregar() {
 	if [[ $? = 0 ]]; then
@@ -132,7 +132,7 @@ case "$1" in
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
     			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
-			bzr pull
+			bzr pull $(cat .bzr/branch/branch.conf | grep push_location | cut -c 16-99)
 			cd ..
 		done
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
