@@ -1,6 +1,7 @@
 mybazaar
 ========
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sinfallas/mybazaar)
 [![GitHub license](https://sinfallas.files.wordpress.com/2016/02/gpl.png)](https://github.com/sinfallas/mybazaar/blob/master/LICENSE)
 [![DOI](https://zenodo.org/badge/4102/sinfallas/mybazaar.svg)](https://zenodo.org/badge/latestdoi/4102/sinfallas/mybazaar)
 ![Status](https://travis-ci.org/sinfallas/mybazaar.svg) 
